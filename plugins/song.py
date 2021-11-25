@@ -83,7 +83,7 @@ def a(client, message):
             views = results[0]["views"]
 
             ## UNCOMMENT THIS IF YOU WANT A LIMIT ON DURATION. CHANGE 1800 TO YOUR OWN PREFFERED DURATION AND EDIT THE MESSAGE (30 minutes cap) LIMIT IN SECONDS
-            # if time_to_seconds(duration) >= 1800:  # duration limit
+            # if time_to_seconds(duration) >= 7000:  # duration limit
             #     m.edit("Exceeded 30mins cap")
             #     return
 
