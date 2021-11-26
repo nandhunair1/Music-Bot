@@ -6,7 +6,6 @@ API_ID = int(os.environ.get("API_ID", "6"))
 API_HASH = os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
 START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/2a35fca576aa49de77c98.jpg")
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
-DURATION_LIMIT = os.environ.get("DURATION_LIMIT", "7"))
 
 if __name__ == "__main__" :
     plugins = dict(
