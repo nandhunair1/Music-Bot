@@ -4,6 +4,7 @@ import asyncio
 import math
 import os
 import time
+import ffmpeg
 from random import randint
 from urllib.parse import urlparse
 
