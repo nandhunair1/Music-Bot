@@ -1,4 +1,3 @@
-
 from __future__ import unicode_literals
 
 import asyncio
@@ -18,8 +17,6 @@ from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
-
-from bot import DURATION_LIMIT
 
 
 @Client.on_message(filters.command(['start']))
