@@ -4,5 +4,11 @@ youtube_dl
 youtube_search_python
 youtube_search
 requests
+aiohttp
+aiofiles
+asyncio
+requests
 ffmpeg-python
 ffmpeg
+future
+wget
